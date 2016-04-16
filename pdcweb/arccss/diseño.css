@@ -1,0 +1,289 @@
+/*font-family: 'Lobster', cursive; (tipo de fuente 1)
+font-family: 'Dancing Script', cursive; (tipo de fuente 2)*/
+
+#contenidos{ /*se asignan los atributos css para que sean tomados en el contenedor div creado en html5*/
+width: 1200px;/*tamaño de ancho de la apagina*/ 
+height:500px; /*ajueste de acuerdo al contenido*/
+background-color: lavender;
+margin-left: 140px;
+border-radius: 8px;
+}
+
+body{/*se asignan los atributos css para que sean tomados en el cuerpo de la pagina*/
+background-color:lavender;
+background-repeat: no-repeat;/*se asigna  el valor de no-repeat para mantener el fondo de pantalla fijo en las diferentes resoluciones de pantalla*/
+background-size: cover;/* sedan porcentajes del  tamaño de la imagen en toda la pantalla.*/
+padding-top: 80px;
+
+}
+
+h1{/*se asignan los atributos css para que sean tomados en el primer titulo de la pagina*/
+/*background-image: url(../jpg/huellitas.jpg);/*imagen de fondo de titulo 1 traida de una ruta especifica*/
+margin:-80px;
+font-family:times;/*se define el tipo de letra para el primer titulo*/
+color:white;
+font-size: 50px;/* se da un tamaño a la fuente elegida: ;*/ 
+text-align:center;/* con esta instrución se envia al  centro el titulo en la pagina*/
+border-radius: 10px;/*se aplica el tamaño de los bordes de la caja de menu*/
+}
+
+h2{
+margin:60px;
+margin-right: 40px;
+font-family:arial;/*se define el tipo de letra para el primer titulo*/
+color:white;
+font-size: 30px;/* se da un tamaño a la fuente elegida: ;*/ 
+text-align: right;/* con esta instrución se envia al  centro el titulo en la pagina*/
+border-radius: 10px;/*se aplica el tamaño de los bordes de la caja de menu*/
+}
+
+h3{
+font-family:cursive;/*se define el tipo de letra para el segundo titulo*/
+color:white;
+margin-left: 22px;
+font-size: 15px;/* se da un tamaño a la fuente elegida: ;*/ 
+text-align: center;/* con esta instrución se envia al  centro el titulo en la pagina*/
+border-radius: 10px;/*se aplica el tamaño de los bordes de la caja de menu*/
+}
+
+h4{
+font-family: times;/*se define el tipo de letra para el segundo titulo*/
+color:black;
+margin-left: 20px;
+text-align: center;
+font-size: 40px;/* se da un tamaño a la fuente elegida: ;*/ 
+
+}
+
+header{/*se asignan los atributos css para que sean tomados en el header de la pagina*/
+	background-color: navy;
+	margin-top: -77px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	height: 120px;
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	background-attachment: fixed;
+	 border-radius: 8px;
+	}black; 
+
+nav{
+margin: auto;
+margin-top: 15px;
+width: 1150px;
+height: 100px;
+font-family: arial,helvetica,sans-serif;	
+}
+
+ul,ol{/*se aplican los estilos a las listas no ordenadas*/
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+section{
+	margin-top: 25px;
+    background-image: url(../jpg/pyg3.jpg);
+    background-repeat: no-repeat;
+	width: 875px;/*ancho del section que creamos*/
+	height: 600px;/*alto de la section*/
+	float: left;/*alineacion de los elementos section al lado izquierdo*/
+
+}
+
+aside{
+
+	width: 300px;
+	background: white;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+
+footer{  /*se define el diseño del piede de pagina del sitio web color, fondo, tamaño, margenes*/
+width: 1200px;
+height: 50px;
+background: crimson;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 30px;
+}
+
+center {margin-top: 20px; padding: orange;}  /*margen superior de la etiqueta center que posiciona el contenedor de la galeria de imagenes*/
+
+iframe {
+	margin-top: 20px;  /*magen superios definida en 20 px de la galeria*/
+	background-color: black;border-radius: 8px; /*color de fondo de la galeria*/
+} 
+
+p{
+	font-family:cursive;/*tipo de letra del texto*/
+	margin-left: 30px; /*alineacion de 30 px a la izquierda*/
+	font-size: 30px;/*tamaño de la fuente*/
+	color:navy;/*color de la fuete*/
+	font-weight: bolder; 
+	line-height: 40px;/*tamaño del interlineado del texto*/
+	padding:10px;
+	text-align: justify; /*parametro para alinear el texto o parrafos*/
+}
+/*se defubeb la clases y subclases que daran el diseño deseado al sirio web*/
+
+.menu a {background-color: white;color:blue;text-decoration: none;padding: 10px 20px;display: block;border-radius: 8px;box-shadow: 0 0 10px silver inset;}/*se aplican estilos a los li*/
+.menu li a:hover {background-color:white;color:red;box-shadow: 0 0 12px darkgray inset;}/*se aplica color de fondo al pasar el mouse*/
+.menu li a:active{color:orange;}/*cambia de color el enlace al dar click sobre el nombre */
+.menu > li{float: left;margin: 6px;}/*se alinean los link para que no quede como lista*/
+.menu li ul{display:none;position: absolute;min-width: 120px;}/*mantine en una posicion fija al submenu y se puede controlar el tamaño del mismo*/
+.menu li:hover >ul {display: block;}/*Se muestran los submenus que estaban ocultos*/
+
+.cabecera img {margin-top: 6px;margin-left:40px;text-decoration: none;border-radius: 8px}/*se aplican estilos a imagen del baner contenida en el heider*/
+
+.info:visited{color:blue;}
+.info:hover{color:orange;}
+.info section section {width: 500px; height: 300px;}
+.info p{color:blue;}
+
+.buscar input{margin-top: 15px; margin-left: 15px;text-decoration: none;border-radius: 8px}
+
+.social {
+		position:fixed ; /*damos una posicion fija al cuadro de redes sociles*/
+		left:10px; /*enviamos el cuadro a la izquieda*/
+ 		top:200px; /* se define una margen */
+ 		z-index: 2000px;  /* posicina las redes sociales pon ensimas de las demas capas*/
+ 	} 
+
+.social ul {list-style: none;}
+
+.social  img{
+padding: 10px 15px;
+margin-top: 6px;
+margin-left
+text-decoration: none;
+border-radius: 8px;
+/*aqui se aplica un tiempo para cuando se pase el curos el icono de despliegue rapido o lento.*/
+-webkit-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+/*se apican subclasea a las imagenes que representan los iconos de redes sociales*/
+.icon-google img {
+	background:#d95232
+}
+.icon-facebook2 img {
+	background:#3b5998;
+	 }
+.icon-skype img {
+	background:skyblue; 
+}
+.icon-twitter img {
+	background:#00abf0; 
+}
+
+.social  a img:hover{
+	padding: 10px 30px; 
+	background:orange;}
+/*se aplican clases a los conponentes de cada pagina que conforman el sitio web*/
+.quien {
+	font-family:arial;
+	margin-left: 30px;
+	font-size: 30px;
+	color:navy;
+	font-weight: bolder;
+	line-height: 40px;
+	padding:10px;
+	text-align: justify;
+	margin-right: 10px;;
+}
+
+.mision{
+	font-family:arial;
+	margin-left: 30px;
+	font-size: 30px;
+	color:navy;
+	font-weight: bolder;
+	line-height: 40px;
+	padding:10px;
+	text-align: justify;
+	margin-right: 10px;}
+
+.vision{
+	font-family:arial;
+	margin-left: 30px;
+	font-size: 30px;
+	color:navy;
+	font-weight: bolder;
+	line-height: 40px;
+	padding:10px;
+	text-align: justify;
+	margin-right: 15px;}
+
+.formato{
+    width: 875px;
+	background: dimgray;
+	height:600px;
+	margin-top: 25px;
+    margin-left: 0px;
+	border-radius: 10px;
+	}
+
+.fondo{
+	background: white;}
+.formato h4{
+    font-family: arial;
+	font-size: 30px;
+	text-align: center;
+	color:white;}
+
+
+	
+.adopta h4 {font-family: arial;
+	font-size: 30px;
+	text-align: center;
+	color:navy;}
+
+.adopta{
+	width: 875px;
+	height:600px;
+	background-image: url(../jpg/pyg3.jpg);
+    background-repeat: no-repeat;
+	margin-top: 25px;
+    margin-left: 0px;
+	border-radius: 10px;
+	
+	}
+
+.adopta p {
+	font-family: arial;
+    font-size: 30px;
+	text-align: justify;
+	margin-right: 10px;
+	color:navy;}
+
+.perritos{
+	width: 600px;
+	background: dimgray;
+	height:500px;
+	margin-top: 0px;
+  margin-left: 280px;
+	border-radius: 10px;
+	}
+.perritos h4{
+    font-family: arial;
+	font-size: 30px;
+	text-align: center;
+	color:white;}
+
+.gaticos{
+	width: 700px;
+	background: dimgray;
+	height:600px;
+	margin-top: 0px;
+	 margin-left: 250px;
+ 	border-radius: 10px;
+	}
+.gaticos h4{
+    font-family: arial;
+	font-size: 30px;
+	text-align: center;
+	color:white;}
+
